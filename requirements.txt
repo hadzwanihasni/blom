@@ -1,0 +1,24 @@
+# === Core Streamlit App ===
+streamlit>=1.35.0
+
+# === Data Handling ===
+pandas>=2.2.2
+
+# === Scout Modules ===
+pytrends>=4.9.2               # Google Trends scraping
+feedparser>=6.0.11            # RSS Feed parsing
+requests>=2.32.3              # HTTP API requests
+pyyaml>=6.0.1                 # YAML formatting
+tqdm>=4.66.4                  # CLI progress bars
+aiohttp>=3.9.5                # Async API (planned)
+
+# === NLP & Prompt Generation (Planned) ===
+openai>=1.34.0
+
+# === Markdown/YAML preview & export ===
+markdown2>=2.4.10
+
+# === Developer Experience ===
+python-dotenv>=1.0.1
+ruff>=0.4.3
+mypy>=1.10.0
